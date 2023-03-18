@@ -1,0 +1,36 @@
+<style>
+  @import '../layouts/landing.css';
+</style>
+
+<astro>
+  <head>
+    <title>WELCOME TO HELIOS</title>
+    <link rel="preload" href="/home.astro" as="document">
+    <link rel="stylesheet" href="../layouts/landing.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Where would you like to go?</h1>
+      </nav>
+    </header>
+    <main>
+      <div class="button-container">
+        <a href="/home" target="_blank">
+          <button class="where3">ARCHIVE</button>
+        </a>
+        <br>
+        <a href="/HELIOS" target="_blank">
+          <button class="where3">H.E.L.I.O.S</button>
+        </a>
+        <br>
+        <a href="https://www.example.com" target="_blank">
+          <button class="where3">SUPPORT</button>
+        </a>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 eveindex</p>
+    </footer>
+  </body>
+</astro>
