@@ -5,6 +5,7 @@
 <astro>
   <head>
     <title>WELCOME TO HELIOS</title>
+    <link rel="icon" href="../../public/icon.png" type="image/x-icon">
     <link rel="preload" href="/home.astro" as="document">
     <link rel="stylesheet" href="../layouts/landing.css">
   </head>
@@ -16,15 +17,15 @@
     </header>
     <main>
       <div class="button-container">
-        <a href="/home" target="_blank">
+        <a href="/home" rel="prefetch">
           <button class="where3">ARCHIVE</button>
         </a>
         <br>
-        <a href="/HELIOS" target="_blank">
+        <a href="/HELIOS" rel="prefetch">
           <button class="where3">H.E.L.I.O.S</button>
         </a>
         <br>
-        <a href="https://www.example.com" target="_blank">
+        <a href="https://www.example.com" rel="prefetch">
           <button class="where3">SUPPORT</button>
         </a>
       </div>
