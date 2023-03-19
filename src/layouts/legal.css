@@ -53,7 +53,7 @@ nav {
 /* body here */
 
 body {
-    background-image: url('../../public/background.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
